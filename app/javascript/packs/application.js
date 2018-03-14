@@ -10,12 +10,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import App from '../App'
+
 document.addEventListener('DOMContentLoaded', () => {
   let reactElement = document.getElementById('app')
 
   if (reactElement) {
     ReactDOM.render(
-      <h1>Welcome to the world of Pokemon!</h1>,
+      <App />,
       reactElement
     )
   }
